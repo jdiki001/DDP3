@@ -33,4 +33,9 @@ summary(mtcars)
 
 ## Conclusion
 
+```{r pressure, echo=FALSE,out.width = '100%'}
+knitr::include_graphics("Screen Shot 2020-06-12 at 12.02.24 PM.png")
+```
+
 As we can tell from our shiny application, a lower engine displacement volume generally correlates to higher miles per gallon. This information can be useful to those who are considering buying a new car in the future.
+
