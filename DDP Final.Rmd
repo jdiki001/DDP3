@@ -12,9 +12,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Introduction
 
-The following presentation is a guide for using my shiny application. 
+The following presentation is a guide for using my shiny application (https://jdiki001.shinyapps.io/ddp3/). 
 
 The purpose of this application is to predict the **gas mileage** of cars in the mtcars dataset **on the basis of engine displacement**. 
+
 
 ## Instructions
 
@@ -30,9 +31,6 @@ summary(mtcars)
 ```
 
 
-## Screenshot of Shiny App Produced
+## Conclusion
 
-```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
-knitr::include_graphics("Screen Shot 2020-06-12 at 10.30.19 AM.png")
-```
-
+As we can tell from our shiny application, a lower engine displacement volume generally correlates to higher miles per gallon. This information can be useful to those who are considering buying a new car in the future.
