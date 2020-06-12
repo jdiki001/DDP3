@@ -1,0 +1,38 @@
+---
+title: "Developing Data Product Final Project"
+author: "Donovan Dikitanan"
+date: "6/12/2020"
+output: ioslides_presentation
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction
+
+The following presentation is a guide for using my shiny application. 
+
+The purpose of this application is to predict the **gas mileage** of cars in the mtcars dataset **on the basis of engine displacement**. 
+
+## Instructions
+
+1. Initiate the shiny application
+2. Choose the value for engine displacement (0-500)
+3. Check/Uncheck the boxes for the model you would like to use
+4. View the plot and underlying text to find the estimated gas mileage
+
+## Summary of Dataset (mtcars)
+
+```{r cars, echo = TRUE}
+summary(mtcars)
+```
+
+
+## Screenshot of Shiny App Produced
+
+```{r pressure, echo=FALSE, fig.cap="A caption", out.width = '100%'}
+knitr::include_graphics("Screen Shot 2020-06-12 at 10.30.19 AM.png")
+```
+
