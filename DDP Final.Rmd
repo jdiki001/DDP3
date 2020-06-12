@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Introduction
 
-The following presentation is a guide for using my shiny application (https://jdiki001.shinyapps.io/ddp3/). 
+The following presentation is a guide for using my shiny application (https://jdiki001.shinyapps.io/DDP3App/). 
 
 The purpose of this application is to predict the **gas mileage** of cars in the mtcars dataset **on the basis of engine displacement**. 
 
